@@ -51,6 +51,7 @@ public class CalculadoraTestRepositorio {
         int resultado=CalculadoraRepositorio.resta(3,2);
         int esperado=1;
         assertEquals(esperado,resultado);
+        System.out.println("El resultado es 1");    
     }
 
     // TODO add test methods here.
